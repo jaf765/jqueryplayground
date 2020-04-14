@@ -1,0 +1,55 @@
+.box {
+  height: 40px;
+  margin: 50px auto;
+  width: 40px;
+  cursor: pointer;
+}
+
+.box1 {
+  background: pink;
+  transition: all 3s;
+}
+
+.otherBox {
+  height: 40px;
+  margin: 50px auto;
+  width: 40px;
+  cursor: pointer;
+}
+
+.otherBox1 {
+  background: blue;
+  transition: all 3s;
+}
+
+.rect{
+  height: 40px;
+  margin: 50px auto;
+  width: 60px;
+  cursor: pointer;
+
+}
+
+.rect1 {
+  background: salmon;
+  transition: all 3s;
+}
+
+.rect2 {
+  background: lavender;
+  transition: all 3s;
+}
+
+.rect3 {
+  background: grey;
+  transition: all 3s;
+}
+
+
+.transform {
+  transform: scale(2);
+}
+
+.rectTransformWidth {
+  width: 200px;
+}

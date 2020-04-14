@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--content goes here-->
+
+    <div class="wrap">
+          <div class="instructions">
+            Click to shrink and grow the box
+          </div>
+          <div class="box box1"></div>
+        </div>
+
+        <div class="wrap">
+              <div class="instructions">
+                doubleclick the blue box
+              </div>
+              <div class="otherBox otherBox1"></div>
+            </div>
+
+        <div class="wrap">
+              <div class="instructions">
+                    hover over the rectangles
+                  </div>
+                  <div class="rect rect1"></div>
+                  <div class="rect rect2"></div>
+                  <div class="rect rect3"></div>
+                </div>
+
+    <!-- If using jQuery, it must be added BEFORE your own script -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+      (function() {
+        app.initialize();
+      })();
+
+      (function() {
+        app.foo();
+      })();
+
+      (function() {
+        app.footoo();
+      })();
+
+    </script>
+  </body>
+</html>
